@@ -7,3 +7,8 @@
     @apply cursor-pointer hover:underline;
   }
 }
+
+.hero-mask {
+  -webkit-mask-image: linear-gradient(to top, transparent 25%, black 85%);
+  mask-image: linear-gradient(to top, transparent 25%, black 85%);
+}
